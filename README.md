@@ -1,5 +1,9 @@
 # **TechMe.Blog DOC**
 
+## **Clone**
+### **Open terminal, navigate to desired folder and do:**
+>git clone https://github.com/diegodnavarrogithub/devweb_entrega.git
+
 ## **Run**
 ### **Open terminal, navigate to folder and run:**
 >open index.html -a Google\ Chrome.app
