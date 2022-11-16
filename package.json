@@ -1,0 +1,25 @@
+{
+  "name": "entrega1",
+  "version": "1.0.0",
+  "description": "## **Clone** ### **Open terminal, navigate to desired folder and do:** >git clone https://github.com/diegodnavarrogithub/devweb_entrega.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass - - include-path scss styles_creator/style_creator.scss styles/main_style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegodnavarrogithub/devweb_entrega.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegodnavarrogithub/devweb_entrega/issues"
+  },
+  "homepage": "https://github.com/diegodnavarrogithub/devweb_entrega#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

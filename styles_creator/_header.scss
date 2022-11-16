@@ -1,0 +1,23 @@
+.header_list {
+    li {
+        display: inline-block;
+    }
+}
+
+.header_item {
+    padding: 30px;
+    &:hover {
+        scale: $scale-value;
+        text-shadow: 2px 1px 7px rgb(62, 60, 73);
+        transition: 0.2s;
+    }
+}
+
+.header_item_img {
+    &:hover {
+        scale: $scale-value;
+        box-shadow: 2px 1px 7px rgb(62, 60, 73);
+        transition: 0.2s;
+    }
+}
+

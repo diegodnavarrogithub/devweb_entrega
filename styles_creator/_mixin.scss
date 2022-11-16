@@ -1,0 +1,8 @@
+@mixin parrafos {
+    font-size: Impact;
+    text-align: right;
+}
+
+.parrafosConEstilo {
+    @include parrafos;
+}
