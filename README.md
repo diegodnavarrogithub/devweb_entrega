@@ -4,9 +4,15 @@
 ### **Open terminal, navigate to desired folder and do:**
 >git clone https://github.com/diegodnavarrogithub/devweb_entrega.git
 
+## **IF NEEDED**
+## **Run**
+### **Open terminal, navigate to folder and run:**
+>sass styles_creator/style_creator.scss styles/main_style.css
+
 ## **Run**
 ### **Open terminal, navigate to folder and run:**
 >open index.html -a Google\ Chrome.app
+
 
 #### _:TODO: Improve Header NavBar_
 ------------------------------
