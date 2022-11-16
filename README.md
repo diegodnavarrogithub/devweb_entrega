@@ -4,9 +4,27 @@
 ### **Open terminal, navigate to desired folder and do:**
 >git clone https://github.com/diegodnavarrogithub/devweb_entrega.git
 
-## **SASS**
-### **IF NEEDED: Run**
+## **NODE/SASS**
+### **IF NEEDED**
 ### **Open terminal, navigate to folder and run:**
+>npm init
+#### Output (leave it all blank by hitting enter):
+```terminal
+package name: (entrega1) 
+version: (1.0.0) 
+description: 
+entry point: (index.js) 
+test command: 
+git repository: (https://github.com/diegodnavarrogithub/devweb_entrega.git) 
+keywords: 
+author: 
+license: (ISC) 
+Is this OK? (yes)
+```
+>sudp npm install -D node-sass nodemon
+
+>sudo npm install -g sass
+
 >sass styles_creator/style_creator.scss styles/main_style.css
 
 ## **Run**
