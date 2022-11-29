@@ -21,6 +21,9 @@ h1 {
 
 nav {
     text-align: center;
+    background: gray;
+    opacity:70%;
+    border-radius: 7px;
 }
 
 .mainlogo {
@@ -69,6 +72,17 @@ nav {
     padding-top: 0px;
     margin-top: 0px;
     text-align: right;
+}
+
+.card {
+    &:hover {
+        scale: $scale-value;
+        transition: 0.2s;
+    }
+}
+
+.empty_div {
+    padding-top: 50px;
 }
 
 @media (max-width: 443px) {

@@ -1,7 +1,12 @@
 body {
     padding: 20px;
-    background-color: rgb(187, 187, 187);
-    font-family: $general-font;
+    background: rgb(19, 94, 105);
+    background: linear-gradient(
+      90deg,
+      rgba(19, 94, 105, 1) 0%,
+      rgba(0, 127, 153, 1) 100%
+    );
+    font-family: "SF Pro", sans-serif;
 }
 
 img.background_main {

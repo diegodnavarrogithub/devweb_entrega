@@ -1,6 +1,7 @@
 body {
   padding: 20px;
-  background-color: rgb(187, 187, 187);
+  background: rgb(19, 94, 105);
+  background: linear-gradient(90deg, rgb(19, 94, 105) 0%, rgb(0, 127, 153) 100%);
   font-family: "SF Pro", sans-serif;
 }
 
@@ -29,6 +30,10 @@ img.background_main {
   text-shadow: 2px 1px 7px rgb(62, 60, 73);
   transition: 0.2s;
 }
+.header_item a {
+  color: red;
+  font-size: 30px;
+}
 
 .header_item_img:hover {
   scale: 110%;
@@ -53,6 +58,9 @@ h1 {
 
 nav {
   text-align: center;
+  background: gray;
+  opacity: 70%;
+  border-radius: 7px;
 }
 
 .mainlogo {
@@ -99,6 +107,15 @@ nav {
   padding-top: 0px;
   margin-top: 0px;
   text-align: right;
+}
+
+.card:hover {
+  scale: 110%;
+  transition: 0.2s;
+}
+
+.empty_div {
+  padding-top: 50px;
 }
 
 @media (max-width: 443px) {
